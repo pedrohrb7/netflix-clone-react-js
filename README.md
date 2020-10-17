@@ -1,3 +1,10 @@
+### `PC Screen`
+
+![Alt text](relative/path/to/pc_screen.png?raw=true "pc-screen")
+
+### `Mobile screen (iPhone 6/7/8)`
+
+![Alt text](relative/path/to/mobile_browser?raw=true "mobile-screen")
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
