@@ -2,10 +2,6 @@
 
 ![Alt text](pc_screen.png "pc-screen")
 
-### `Mobile screen (iPhone 6/7/8)`
-
-![Alt text](mobile_browser.png "mobile-screen")
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
