@@ -1,0 +1,71 @@
+.movie-row {
+    margin-bottom: 30px;
+}
+
+.movie-row h2 {
+    margin: 0 0 0 30px; 
+}
+
+.movie-row--listArea {
+    overflow-x: hidden;
+    padding-left: 30px;
+}
+
+.movie-row--list {
+    transition: all ease 0.4s;
+}
+
+.movie-row--item {
+    display: inline-block;
+    width: 150px;
+    cursor: pointer;
+}
+
+.movie-row--item img {
+    width: 100%;
+    transform: scale(0.9);
+    border-radius: 4px;
+    transition: all ease 0.2s;
+}
+
+.movie-row--item img:hover {
+    width: 100%;
+    transform: scale(1);
+}
+
+.arrow-left,
+.arrow-right {
+    position: absolute;
+    width: 40px;
+    height: 225px;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: rgba(0,0,0,0.6);
+    cursor: pointer;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+
+.arrow-left {
+    left: 0;
+}
+
+.arrow-right {
+    right: 0;
+}
+
+.movie-row:hover .arrow-left, 
+.movie-row:hover .arrow-right {
+    opacity: 1;
+}
+
+
+@media (max-width: 760px) {
+    .arrow-left,
+    .arrow-right {
+        opacity: 1;
+    }
+}
