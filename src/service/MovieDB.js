@@ -1,8 +1,8 @@
 /*
     To use this API you need register an account on The Movie DD
-    https://www.themoviedb.org/ and insert  your API_KEY bellow.
+    https://www.themoviedb.org/ and insert your own API_KEY bellow.
     */
-const API_KEY = "<API_KEY>";
+const API_KEY = "68d2113da8cc7a89eb1db638d4469b2e";
 const API_BASE = "https://api.themoviedb.org/3";
 
 const basicFetch = async (endpoint) => {
